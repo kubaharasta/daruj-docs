@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochrana osobních údajů – Aplikace Daruj</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #222; background-color: #fff; }
+        h1 { color: #e63946; font-size: 24px; border-bottom: 2px solid #e63946; padding-bottom: 10px; }
+        h2 { color: #111; font-size: 18px; margin-top: 30px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Zásady ochrany osobních údajů</h1>
+    <p><strong>Aplikace:</strong> Daruj</p>
+    <p><strong>Autor:</strong> Jakub Harašta</p>
+    <p><strong>Poslední aktualizace:</strong> 30. 5. 2026</p>
+
+    <p>Aplikace Daruj je navržena s maximálním důrazem na soukromí uživatelů a plně respektuje obecné nařízení o ochraně osobních údajů (GDPR). Aplikace funguje offline jako nezávislý osobní deník dárce krve.</p>
+
+    <h2>1. Zpracování zdravotních dat (Apple HealthKit)</h2>
+    <p>Aplikace integruje rozhraní Apple HealthKit pro analýzu fyzické připravenosti uživatele k odběru. Přístup k těmto datům je zcela dobrovolný a podmíněný explicitním souhlasem uživatele v systému iOS.</p>
+    <ul>
+        <li>Všechna data získaná z rozhraní HealthKit jsou zpracovávána <strong>výhradně lokálně na zařízení uživatele</strong>.</li>
+        <li>Tato data nejsou odesílána na žádné externí servery ani cloudová úložiště.</li>
+        <li>Zdravotní data z HealthKitu <strong>nikdy nejsou využívána pro reklamní účely</strong>, marketing ani nejsou poskytována třetím stranám.</li>
+    </ul>
+
+    <h2>2. Lokální AI asistent (Kapka)</h2>
+    <p>Konverzační asistent využívaný v aplikaci běží na lokálním jazykovém modelu Meta Llama 3.2. Veškerá komunikace s asistentem a generování odpovědí probíhá přímo v procesoru vašeho zařízení (on-device). Historie chatu se nikam neodesílá a zůstává uložena pouze v aplikaci.</p>
+
+    <h2>3. Cloudové služby a síťová data</h2>
+    <p>Aplikace využívá platformu Google Firebase pouze pro stahování anonymních konfiguračních dat (Remote Config, aktuální stavy krevních barometrů získané scrapingem z oficiálních zdrojů). Aplikace neodesílá do cloudu žádné osobní identifikátory ani citlivé údaje o vašem zdravotním stavu.</p>
+
+    <h2>4. Kompletní smazání dat</h2>
+    <p>Uživatel má plnou kontrolu nad svými daty. V nastavení aplikace je k dispozici funkce „Vymazat data aplikace“, která okamžitě a nevratně odstraní všechny uložené záznamy, historii odběrů, nastavení i stažené modely z úložiště zařízení.</p>
+</body>
+</html>
